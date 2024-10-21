@@ -1,8 +1,8 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Kaboom**
 
-## Project: **X**
+## Project: **2D video game**
 
 ---
 
