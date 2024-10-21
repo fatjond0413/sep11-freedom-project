@@ -2,7 +2,7 @@
 
 ## Tool: **Kaboom**
 
-## Project: **2D video game**
+## Project: **2D platformer game**
 
 ---
 
