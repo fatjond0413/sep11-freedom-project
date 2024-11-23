@@ -1,4 +1,4 @@
-# Tool Learning Log
+# Learning Log 1
 
 ## Tool: **Kaboom**
 
