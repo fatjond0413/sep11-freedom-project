@@ -42,6 +42,22 @@ const player = add([
 ])
 ````
 ##### Pre second tinker
+
+   After that I was thinking were to go next, so I talked to the classmate next to me on what part I should do next and I told him I was thinking of the movement section. He said to try out the ai part of kaboom as the ai mobs or npcs are very important for a rpg game. I llistened to him and went to the [ai section of kaboom](https://kaboomjs.com/play?example=ai) and was given two sprites, one being a bean/the player which you can control with the arrow keys, then a ghost sprite that shoots a projectile at you and follows you around.
+   ````js
+const SPEED = 320
+const ENEMY_SPEED = 160
+const BULLET_SPEED = 800
+
+enemy.onStateEnter("idle", async () => {
+	await wait(0.5)
+	enemy.enterState("attack")
+})]
+  ````
+  ##### Post second tinker
+
+       For my tinker I wanted to make the bullet go very fast, to not be able to dodge. So after looking around the entire code for abit, I noticed the ` const SPEED`. The speed command is used when you want to input a certian speed for a certian thing, like the code gives 320 speed for us. Anyway not that I knew this, I decided to change speed from 800 to 2000, then to 3000, until I decided to stop at 5000 because I already got the gist. But after that I wanted
+       
   ### The RPG section 
   But where I really put my tinkering and EDP to the use was at the [rpg](https://kaboomjs.com/play?example=rpg) section. There was the bases for my project. It had alot of things, but mainly dialoge, for this section I decided that I need to change the message an npc says from "Hi bean" to "hello" as I need to learn and hi was to basic, so first I decided to look around the code and I noticed two blocks of code that sayd `js onst characters = {	"a": {	sprite: "bag",	msg: "Hi Bean! You should get that key!"}`, and `js player.onCollide("character", (ch) => { dialog.say(ch.msg)`. So looking at these I thought that if i change hello to hi in the msg variable the dialogue will change as well and it worked when I tested the improved code ran perfectly and I did not really need improvment so I just showed it to the student next to me.
  
