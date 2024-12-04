@@ -76,7 +76,7 @@ enemy.onStateEnter("idle", async () => {
  
        
   ### The RPG section 
-  But where I really put my tinkering and EDP to the use was at the [rpg](https://kaboomjs.com/play?example=rpg) section. There was the bases for my project. It had alot of things, but mainly dialoge, for this section I decided that I need to change the message an npc says from "Hi bean" to "hello" as I need to learn and hi was to basic, so first I decided to look around the code and I noticed two blocks of code that sayd `js onst characters = {	"a": {	sprite: "bag",	msg: "Hi Bean! You should get that key!"}`, and `js player.onCollide("character", (ch) => { dialog.say(ch.msg)`. So looking at these I thought that if i change hello to hi in the msg variable the dialogue will change as well and it worked when I tested the improved code ran perfectly and I did not really need improvment so I just showed it to the student next to me.
+  But after my first tinkering and my second I then decided to go to the [rpg](https://kaboomjs.com/play?example=rpg) section. In the rpg section I first did acouple of tinkering in like change the dialoge using `dailog.say` and the already giving dialoge functions and that.  But this time, I did not want to just tinker and edit, I decided that I wanted to add something. I wanted to add another area of the rpg.However here is the problem, I did not know how. So the very first thing I did was the examine the code to see 
  
 [Next](entry02.md)  
 
