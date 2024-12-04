@@ -10,7 +10,15 @@ At first I had no real idea on what my project would be about, would it be a gam
 
 ## Testing out kaboom.js
 
- How I began testing my tool was by going into the [kaboom playground](https://kaboomjs.com/play?example=add) and examining the main parts I will need and notice that there is a `js add([sprite("ghosty"),pos(x, y),])` so I decided to change it to ghostly to dino and realize that I cannot add dino because there is no load sprite like `js loadSprite("bean", "/sprites/bean.png") loadSprite("ghosty", "/sprites/ghosty.png")` and I need a load sprite to add sprites or mobs for my games, so good to know. Then I went to the [movement](https://kaboomjs.com/play?example=movement), and started testing the speed by increasing it from 320 to 500, changed the controls from arrows keys to (WDAS) keys and did not really do much. But where I really put my tinkering and EDP to the use was at the [rpg](https://kaboomjs.com/play?example=rpg) section. There was the bases for my project. It had alot of things, but mainly dialoge, for this section I decided that I need to change the message an npc says from "Hi bean" to "hello" as I need to learn and hi was to basic, so first I decided to look around the code and I noticed two blocks of code that sayd `js onst characters = {	"a": {	sprite: "bag",	msg: "Hi Bean! You should get that key!"}`, and `js player.onCollide("character", (ch) => { dialog.say(ch.msg)`. So looking at these I thought that if i change hello to hi in the msg variable the dialogue will change as well and it worked when I tested the improved code ran perfectly and I did not really need improvment so I just showed it to the student next to me.
+ ### Simple testinh
+  How I began testing my tool was by going into the [kaboom playground](https://kaboomjs.com/play?example=add) and examining the code that was given. The code had given 4 sprites, 3 ghots and 1 bean the code had these lines
+  ````js
+loadSprite("bean", "/sprites/bean.png")
+loadSprite("ghosty", "/sprites/ghosty.png")
+
+````
+  ### The RPG section 
+  But where I really put my tinkering and EDP to the use was at the [rpg](https://kaboomjs.com/play?example=rpg) section. There was the bases for my project. It had alot of things, but mainly dialoge, for this section I decided that I need to change the message an npc says from "Hi bean" to "hello" as I need to learn and hi was to basic, so first I decided to look around the code and I noticed two blocks of code that sayd `js onst characters = {	"a": {	sprite: "bag",	msg: "Hi Bean! You should get that key!"}`, and `js player.onCollide("character", (ch) => { dialog.say(ch.msg)`. So looking at these I thought that if i change hello to hi in the msg variable the dialogue will change as well and it worked when I tested the improved code ran perfectly and I did not really need improvment so I just showed it to the student next to me.
  
 [Next](entry02.md)  
 
