@@ -33,8 +33,9 @@
 # Learning log 2
 ## Tool: Kaboom
 ### Project: 2d platformer
-
-#### Tinkeering with my tool and exploring parts of the play ground. Date 10/28
+11/2/2024
+## Very simple testing/ examining
+#### Very basic tinkeering with my tool and exploring parts of the play ground. Date 10/28
 * I went to the [playground](https://kaboomjs.com/play?example=add) and started adding some sprites
 * I added some sprites like ghost and realized you needed this code `loadSprite("bean", "/sprites/bean.png")` to be able to add a sprite.
 * I then went to the [movement](https://kaboomjs.com/play?example=movement) part of the playground and changed the movement keys from arrows to WDSA keys.
@@ -71,4 +72,5 @@
 ## Tool: Kaboom
 ### Project
 
-
+11/20/2024
+## Puting my tool into my IDE
