@@ -49,14 +49,31 @@ const SPEED = 320
 const ENEMY_SPEED = 160
 const BULLET_SPEED = 800
 
+state("move", [ "idle", "attack", "move" ]),
+
 enemy.onStateEnter("idle", async () => {
 	await wait(0.5)
 	enemy.enterState("attack")
 })]
-  ````
-  ##### Post second tinker
+````
+  ##### Post second tinker  
+ For my tinker I wanted to make the bullet go very fast, to not be able to dodge. So after looking around the entire code for abit, I noticed the `const SPEED`. The speed command is used when you want to input a certian speed for a certian thing, like the code gives 320 speed for us. Anyway not that I knew this, I decided to change speed from 800 to 2000, then to 3000, until I decided to stop at 5000 because I already got the gist of it. 
 
-       For my tinker I wanted to make the bullet go very fast, to not be able to dodge. So after looking around the entire code for abit, I noticed the ` const SPEED`. The speed command is used when you want to input a certian speed for a certian thing, like the code gives 320 speed for us. Anyway not that I knew this, I decided to change speed from 800 to 2000, then to 3000, until I decided to stop at 5000 because I already got the gist. But after that I wanted
+ ##### Post Second tinker: part 2
+ But after that I wanted to see if I could make the normally hostile mob into a friendly or neutral mob. So I decided to look at the `enemy.enterState` and looking at the commets left and made come to the conclusion that `.enterState` or `.onState` are commands that direct on what a mob does. So I just changed that "attack" to "idle" and it was no longer attacking me. I also deleted "attack: on the array for extra measure. So here is my final code
+````js
+const SPEED = 320
+const ENEMY_SPEED = 160
+const BULLET_SPEED = 5000
+
+state("move", [ "idle", "move" ]),
+
+enemy.onStateEnter("idle", async () => {
+	await wait(0.5)
+	enemy.enterState("idle")
+})]
+````
+ 
        
   ### The RPG section 
   But where I really put my tinkering and EDP to the use was at the [rpg](https://kaboomjs.com/play?example=rpg) section. There was the bases for my project. It had alot of things, but mainly dialoge, for this section I decided that I need to change the message an npc says from "Hi bean" to "hello" as I need to learn and hi was to basic, so first I decided to look around the code and I noticed two blocks of code that sayd `js onst characters = {	"a": {	sprite: "bag",	msg: "Hi Bean! You should get that key!"}`, and `js player.onCollide("character", (ch) => { dialog.say(ch.msg)`. So looking at these I thought that if i change hello to hi in the msg variable the dialogue will change as well and it worked when I tested the improved code ran perfectly and I did not really need improvment so I just showed it to the student next to me.
