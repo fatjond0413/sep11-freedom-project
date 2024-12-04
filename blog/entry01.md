@@ -12,7 +12,7 @@ At first I had no real idea on what my project would be about, would it be a gam
 
   Now I had to chose a tool and after careful thinking and thought on which tool I should chose I decided to go and use [kaboom](https://kaboomjs.com/) because it is designed for my project. As for my project I plan to make a 2d rpg video game that is similar to the [first zelda game](https://youtu.be/6g2vk8Gudqs?si=ek4g_W8S7XdAr9ce) where you can fight mobs, talk to npcs, and even explore the world because it seems like a very fun idea. It is not unique  or original, but competition breeds improvement. How I made sure it was the right tool for me was by looking at the rpg section to see what kaboom is capable of in this genre of video games and it did not disapoint. It was a great rpg and way to make my project, it had dialogue, items, and npcs, so it seemed like it was the perfect tool for my project.I also went to reserch on youtube insted of google to learn about the tool as having itn explained to you is better than reading it sometimes as I hav learned from A-frame were I probably should have watched some videos on it. Anyways the videos shows me that  it was perfect for making my freedom project.
 
-## Testing out kaboom.js
+## Testing out kaboom.js/ Content
 
  ### Basic tinkering and discovering
   How I began testing my tool was by going into the [kaboom playground](https://kaboomjs.com/play?example=add) and examining the code that was given. The code had given 4 sprites, 3 ghost and 1 bean. The code had these lines which load the sprites for the game. The second secton of code adds the sprite to a specific location. For this part, I wanted tochange the bean sprite into another sprite.
