@@ -93,4 +93,20 @@ const NUM_PLATFORMS = 5
 ### Project: 2d platformer rpg
 
 12/3/24
-#### Puting my tool into my Ide
+#### Doing some final basic tinkering/reaserch before putong my tool in the ide
+
+* Went to [youtube](https://www.youtube.com/) to reaserch for kaboom one last time
+* Went the the [playground](https://kaboomjs.com/play?example=gravity)
+* Tinkered on spriets and added dinosaurs and even made them  hostile
+* Went to the rpg and made a unique level to refresh my knowlage on the tool
+* Went to ai and made multiple mods
+
+  #### The maze, final tinkering before putng kaboom into my ide
+* Went to [maze](https://kaboomjs.com/play?example=maze) and looked around for abit
+* Was abit overwehlem my the long wall of text.
+* looked at functions like `function createMazeLevelMap(width, height, options)` I also noticed below that they are  sybols like "-", "┛", etc.
+* I assumed that was used to make the map.
+* I then decided to chek it out later as it felt abit complex for me, or I was to tired at the time (It was 9 at night)
+
+
+  # Learning log 5
