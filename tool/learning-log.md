@@ -73,4 +73,14 @@
 ### Project
 
 11/20/2024
-## Puting my tool into my IDE
+## Tinkering the 2d platformers
+
+
+
+
+# Learning log 4
+## Tool: Kaboom
+### Project: 2d platformer rpg
+
+12/3/24
+#### Puting my tool into my Ide
