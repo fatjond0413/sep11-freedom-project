@@ -74,8 +74,18 @@
 
 11/20/2024
 ## Tinkering the 2d platformers
-
-
+ 
+  ### Going to double jump
+* Went to [double jump](https://kaboomjs.com/play?example=doublejump) section to see the jumping that kabooms offers
+* Scroll around for abit
+* Notice the code block below along with `
+````js
+const PLAYER_SPEED = 640
+const JUMP_FORCE = 1200
+const NUM_PLATFORMS = 5
+````
+* I also saw a bean function that had ` body({ jumpForce: JUMP_FORCE }), doubleJump()` and then knew how to jump.
+* Then I tinkered abit, changed the jumpforce to 2000 and I was done.
 
 
 # Learning log 4
