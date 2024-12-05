@@ -10,7 +10,10 @@ At first I had no real idea on what my project would be about, would it be a gam
 
 ## Deciding my Tool
 
-  Now I had to chose a tool and after careful thinking and thought on which tool I should chose I decided to go and use [kaboom](https://kaboomjs.com/) because it is designed for my project. As for my project I plan to make a 2d rpg video game that is similar to the [first zelda game](https://youtu.be/6g2vk8Gudqs?si=ek4g_W8S7XdAr9ce) where you can fight mobs, talk to npcs, and even explore the world because it seems like a very fun idea. It is not unique  or original, but competition breeds improvement. How I made sure it was the right tool for me was by looking at the rpg section to see what kaboom is capable of in this genre of video games and it did not disapoint. It was a great rpg and way to make my project, it had dialogue, items, and npcs, so it seemed like it was the perfect tool for my project.I also went to reserch on youtube insted of google to learn about the tool as having itn explained to you is better than reading it sometimes as I hav learned from A-frame were I probably should have watched some videos on it. Anyways the videos shows me that  it was perfect for making my freedom project.
+  Now I had to chose a tool and after careful thinking and thought on which tool I should chose I decided to go and use [kaboom](https://kaboomjs.com/) because it is designed for my project. As for my project I plan to make a 2d rpg video game that is similar to the [first zelda game](https://youtu.be/6g2vk8Gudqs?si=ek4g_W8S7XdAr9ce) where you can fight mobs, talk to npcs, and even explore the world because it seems like a very fun idea. It is not unique  or original, but competition breeds improvement. How I made sure it was the right tool for me was by looking at the rpg section to see what kaboom is capable of in this genre of video games and it did not disapoint. It was a great rpg and way to make my project, it had dialogue, items, and npcs, so it seemed like it was the perfect tool for my project.
+  
+  ## Researching my tool/ what to do diffrent this time
+ For me reasearching my tool, I decided not to go on goolge this time, but insted go on youtube and type "Kaboom.js guide" to learn about it more. I also decided to read some of the kaboom parts to like the [tutorial](https://kaboomjs.com/doc/setup) and it was very tiring, but I kept reading certian parts of over and over again until I had gotten a decent understanding of what kaboom is about and how it operates. I had spent 5 hours.
 
 ## Testing out kaboom.js/ Content
 
@@ -29,7 +32,7 @@ const player = add([
  ````
 ##### Post 1st tinker
 
- I just decided to replace the bean with dinosaur to see if anything would happen, the reason I wanted dinosaour is because I wanted to see if I can a dinosaur sprite because I plan to use dinosuars in my final product as a mob. I also learned these things, `LoadSprite` loads a sprite, `pos` puts the sprite in a position, `rotate` as the name suggests, rotates the sprite, and `anchor` puts anchors the sprite into a state were they stay in place. 
+ I just decided to replace the bean with dinosaur to see if anything would happen, the reason I wanted dinosaour is because I wanted to see if I can a dinosaur sprite because I plan to use dinosuars in my final product as a mob. I also learned these things, `LoadSprite` loads a sprite, `pos` puts the sprite in a position, `rotate` as the name suggests, rotates the sprite, and `anchor` puts anchors the sprite into a state were they stay in place. After 
 ````js
 loadSprite("dino", "/sprites/dino.png")
 loadSprite("ghosty", "/sprites/ghosty.png")
@@ -76,8 +79,75 @@ enemy.onStateEnter("idle", async () => {
  
        
   ### The RPG section 
-  But after my first tinkering and my second I then decided to go to the [rpg](https://kaboomjs.com/play?example=rpg) section. In the rpg section I first did acouple of tinkering in like change the dialoge using `dailog.say` and the already giving dialoge functions and that.  But this time, I did not want to just tinker and edit, I decided that I wanted to add something. I wanted to add another area of the rpg.However here is the problem, I did not know how. So the very first thing I did was the examine the code to see 
- 
+  But after my first tinkering and my second I then decided to go to the [rpg](https://kaboomjs.com/play?example=rpg) section. In the rpg section I first did acouple of tinkering in like change the dialoge using `dailog.say` and the already giving dialoge functions and that.  But this time, I did not want to just tinker and edit, I decided that I wanted to add something. I wanted to add another area of the rpg.However here is the problem, I did not know how. So the very first thing I did was the examine the code to see what would be helpful in solving the problem and I saw this block of code.
+ ````js
+const levels = [
+		[
+			"===|====",
+			"=      =",
+			"= $    =",
+			"=    a =",
+			"=      =",
+			"=   @  =",
+			"========",
+		],
+		[
+			"--------",
+			"-      -",
+			"-   $  -",
+			"|      -",
+			"-    b -",
+			"-  @   -",
+			"--------",
+		]
+	]
+
+````
+
+  This section of code with the `const level` and just below it having the lines of code like `addlevel` or things like `"$","-","=","|"` made me think that you need to align the symbols a certian way or the way you like to make a level. So I coded this as my prototype map and I wanted to test it to see if it would work successfully.       
+  ```js
+           [          "---------------------------",
+			"-                      -",
+			"-   $                -",
+			"|                  -",
+			"-      @         -",
+			"-       b     -",
+			"=============",
+		]
+   ```
+
+   My prototype as a successful and working fine. After this I decided to add abit more small things that add personality, this below was my final code, a completed and fully functinal level for you to see.
+```js
+const levels = [
+		[
+			"===|====",
+			"=      =",
+			"= $    =",
+			"=    a =",
+			"=      =",
+			"=   @  =",
+			"========",
+		],
+                  [   "---------------------------",
+			"-      - -  =     -",
+			"-   $  ---  -    -",
+			"|      - -  -    -",
+			"-      @         -",
+			"-       b     -",
+			"=============",
+		],
+		[
+			"--------",
+			"-      -",
+			"-   $  -",
+			"|      -",
+			"-    b -",
+			"-  @   -",
+			"--------",
+		],
+	]
+
+```
 [Next](entry02.md)  
 
 [Home](../README.md)
