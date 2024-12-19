@@ -38,7 +38,18 @@ player.onCollide("flame", () => {
 	player.destroy()
 })
    ````
-  I see like lines `addFlamebar` and `player.destroy()` along with other lines of codes that I belive affect the pinable flamebar. I decided that I wanted to 
+  I see like lines `addFlamebar` and `player.destroy()` along with other lines of codes that I belive affect the pinable flamebar. I decided that I wanted to change the pinapple into dinosaures and make the flamebar faster. First I changed the `loadSprite("pineapple", "/sprites/pineapple.png")` into `loadSprite("dino", "/sprites/dino.png")` alogn with changing the `sprite ("pineapple")` to `sprite("dino")
+  ````js
+    for (let i = 0; i < num; i++) {
+		flameHead.add([
+			sprite("dino"),
+			pos(0, i * 48),
+			area(),
+			anchor("center"),
+			"flame",
+		])
+	}
+  ````
    ## Brainstorming solutions on how to import tool kaboom into my Ide
    I first decided to look into my past [sep10 freedom project](https://github.com/fatjond0413/sep10-freedom-project/blob/main/index.html) as I had used A-frame on it, so that might help. But then I saw and remembered that I had forgot to put my tool in my freedom project. SO that was no help. After that I decided to put the entire code on the [add section](https://kaboomjs.com/play?example=add) of the kaboom playground in jsbin. Thinking the `kaboom()` would act as a importer. The code is below
    ````js
