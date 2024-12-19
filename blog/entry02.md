@@ -50,6 +50,39 @@ player.onCollide("flame", () => {
 		])
 	}
   ````
+AFter that I changed the location of the flame bar from `addFlamebar(vec2(200, 300), -60)` to `addFlamebar(vec2(480, 10), 180)` and I was done doing my final tinkering. Below is my final code or tinkered code is below
+````js
+function addFlamebar(position = vec2(0), angle = 0, num = 6) {
+	const flameHead = add([
+		pos(position),
+		rotate(angle),
+	])
+	for (let i = 0; i < num; i++) {
+		flameHead.add([
+			sprite("dino"),
+			pos(0, i * 48),
+			area(),
+			anchor("center"),
+			"flame",
+		])
+	}
+
+	flameHead.onUpdate(() => {
+		flameHead.angle += dt() * 60
+	})
+
+	return flameHead
+}
+
+addFlamebar(vec2(200, 300), 860)
+addFlamebar(vec2(70, 100), -60)
+addFlamebar(vec2(400, 480), 0)
+
+player.onCollide("flame", () => {
+	addKaboom(player.pos)
+	player.destroy()
+})
+````
    ## Brainstorming solutions on how to import tool kaboom into my Ide
    I first decided to look into my past [sep10 freedom project](https://github.com/fatjond0413/sep10-freedom-project/blob/main/index.html) as I had used A-frame on it, so that might help. But then I saw and remembered that I had forgot to put my tool in my freedom project. SO that was no help. After that I decided to put the entire code on the [add section](https://kaboomjs.com/play?example=add) of the kaboom playground in jsbin. Thinking the `kaboom()` would act as a importer. The code is below
    ````js
