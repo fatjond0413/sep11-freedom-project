@@ -3,7 +3,7 @@
 
 ## Content
 
-   ## Some final of my tool
+   ## Some final tinkering of my tool
    I was tinkering with my tool kaboom for abit on the main website and after a while I decided that I should look around and get to know my tool abit more before I decided to import it into my Ide because I just wanted to make sure I knew how I was going to import a tool.. So I first look around on the [kaboom playground]() for abit and deciding on what to do. I went for the [flamebar section](https://kaboomjs.com/play?example=flamebar). There I was confronted with spining pinapple lines like those fire lines in mario. I first moved my arrow keys into the pinapples and I died. I then examined the code below and noticed the lines.
    ````js
 
