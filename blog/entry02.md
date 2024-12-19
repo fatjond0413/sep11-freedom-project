@@ -3,9 +3,42 @@
 
 ## Content
 
-   ## Some final testing of my tool
-   I was tinkering with my tool kaboom for abit on the main website and after a while I decided that I should look around and get to know my tool abit more before I decided to import it into my Ide because I just wanted to make sure I knew how I was going to import a tool.. So I first look around on the [kaboom playground]() for abit and deciding on what to do. I went for the 
+   ## Some final of my tool
+   I was tinkering with my tool kaboom for abit on the main website and after a while I decided that I should look around and get to know my tool abit more before I decided to import it into my Ide because I just wanted to make sure I knew how I was going to import a tool.. So I first look around on the [kaboom playground]() for abit and deciding on what to do. I went for the [flamebar section](https://kaboomjs.com/play?example=flamebar). There I was confronted with spining pinapple lines like those fire lines in mario. I first moved my arrow keys into the pinapples and I died. I then examined the code below and noticed the lines.
+   ````js
 
+function addFlamebar(position = vec2(0), angle = 0, num = 6) {
+	const flameHead = add([
+		pos(position),
+		rotate(angle),
+	])
+	for (let i = 0; i < num; i++) {
+		flameHead.add([
+			sprite("pineapple"),
+			pos(0, i * 48),
+			area(),
+			anchor("center"),
+			"flame",
+		])
+	}
+
+	flameHead.onUpdate(() => {
+		flameHead.angle += dt() * 60
+	})
+
+	return flameHead
+}
+
+addFlamebar(vec2(200, 300), -60)
+addFlamebar(vec2(480, 100), 180)
+addFlamebar(vec2(400, 480), 0)
+
+player.onCollide("flame", () => {
+	addKaboom(player.pos)
+	player.destroy()
+})
+   ````
+  I see like lines `addFlamebar` and `player.destroy()` along with other lines of codes that I belive affect the pinable flamebar. I decided that I wanted to 
    ## Brainstorming solutions on how to import tool kaboom into my Ide
    I first decided to look into my past [sep10 freedom project](https://github.com/fatjond0413/sep10-freedom-project/blob/main/index.html) as I had used A-frame on it, so that might help. But then I saw and remembered that I had forgot to put my tool in my freedom project. SO that was no help. After that I decided to put the entire code on the [add section](https://kaboomjs.com/play?example=add) of the kaboom playground in jsbin. Thinking the `kaboom()` would act as a importer. The code is below
    ````js
