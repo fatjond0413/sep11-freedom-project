@@ -31,18 +31,29 @@ for (let i = 0; i < 3; i++) {
 }
    ````
 
-It did not work and when I tried as the console said that `kaboom()` was not definded. I did not really know what to do so I just decided to look on the [kaboom tutorial](https://kaboomjs.com/doc/setup). After scrolling for abit I noticed that on that on the top of the [tutorial](https://kaboomjs.com/doc/setup) it says that the most easy way to install kaboom.js. I looked at the section and it gave an indepth guide on how to import kaboom. They was alsoa [github repo](https://github.com/replit/kaboom?tab=readme-ov-file) that also gave in my opnion, a even better guide. After looking around for what do do I found these lines of code that are saying they will instal kaboom.
+It did not work and when I tried as the console said that `kaboom()` was not definded. I did not really know what to do so I just decided to look on the [kaboom tutorial](https://kaboomjs.com/doc/setup). After scrolling for abit I noticed that on that on the top of the [tutorial](https://kaboomjs.com/doc/setup) it says that the most easy way to install kaboom.js. I looked at the section and it gave an indepth guide on how to import kaboom. They was alsoa [github repo](https://github.com/replit/kaboom?tab=readme-ov-file) that also gave in my opnion, a even better guide. After looking around for what do do I found these lines of code that are saying they will install kaboom.
 ````
 $ npm init kaboom mygame
 $ cd mygame
 $ npm run dev
 ````
- But after a while, nothing had happened. It was tiring and I really wanted to give up as I felt like I was hitting roadblock after roadblock and geting nowhere. After that I decided to go on youtube again and I found this (video)[https://www.youtube.com/watch?v=hgReGsh5xVU] and it explained on what you needed to do to import kaboom.
+ But after a while, nothing had happened. It was tiring and I really wanted to give up as I felt like I was hitting roadblock after roadblock and geting nowhere. After that I decided to go on youtube again and I found this (video)[https://www.youtube.com/watch?v=hgReGsh5xVU] and it explained on what you needed to do to import kaboom. It also explained on how each line of code works like `import kaboom from "kaboom"` which imports kaboom.js or mabye `kaboom()` which initlizazes kaboom.js. But when I tried these lines of code along with adding sprites abd stuff. MY IDE had still not have imported kaboom. I inputed the code below into my IDE. At this point I had realized that they was no way I can do this by myself and I need some help from my teacher. 
+ ````js
+import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
+
+kaboom();
+
+add([
+    text("hello"),
+    pos(120, 80),
+]);
+
+ ````
 ## EDP
  In my EDP I belive I am at stage 3 and 4 as I have not even put imported my tool into my IDE yet and that is still a problem that I do not have a set solution on. But I am thinking of solutions on how I can try to import kaboom.js to my IDE. I also plan to ask my teacher on some support on this so I can get a better idea on how to takle this problem. After this, I should be on stage 4 with me being able to find a succesful way on how I can put my tool in my IDE. But that is for later. For now I am still on stage 3 and trying to import my tool into my IDE.
 
 ## SKills
-
+The skill belive I am learning while doing myn sep11 freedom project is  collaberation because I show self-advocacy by going up to the teacher and asking for assisatace or a hint on how I can import my tool kaboom.js into my IDE and admiting that I will not beable to do this problem or import my IDE by myself. Another skill I belive I am learning or geting more experinced at is learning how to google as I had been learning how to search on youtube by typing "kaboom.js guides" or my going to the offical website, but at the tutorial instead. But my most prominat example is when I looked up "kaboom.js github" were it lead me to a gituhb guide with all of the lines of code. 
 [Previous](entry01.md) | [Next](entry03.md)
 
 [Home](../README.md)
