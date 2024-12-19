@@ -1,7 +1,41 @@
 # Entry 2
-##### X/X/XX
+##### 12/18/24
 
-Text
+## Content
+
+   ## Some final testing of my tool
+   I was tinkering with my tool kaboom for abit on the main website and after a while I decided that I should look around and get to know my tool abit more before I decided to import it into my Ide because I just wanted to make sure I knew how I was going to import a tool.. So I first look around on the [kaboom playground]() for abit and deciding on what to do. I went for the 
+
+   ## Puting my tool kaboom into my Ide
+   I first decided to look into my past [sep10 freedom project](https://github.com/fatjond0413/sep10-freedom-project/blob/main/index.html) as I had used A-frame on it, so that might help. But then I saw and remembered that I had forgot to put my tool in my freedom project. SO that was no help. After that I decided to put the entire code on the [add section](https://kaboomjs.com/play?example=add) of the kaboom playground in jsbin. Thinking the `kaboom()` would act as a importer. The code is below
+   ````
+     kaboom()
+loadSprite("bean", "/sprites/bean.png")
+loadSprite("ghosty", "/sprites/ghosty.png")
+const player = add([
+	sprite("bean"),   // sprite() component makes it render as a sprite
+	pos(120, 80),     // pos() component gives it position, also enables movement
+	rotate(0),        // rotate() component gives it rotation
+	anchor("center"), // anchor() component defines the pivot point (defaults to "topleft")
+])
+player.onUpdate(() => {
+	player.angle += 120 * dt()
+})
+for (let i = 0; i < 3; i++) {
+	const x = rand(0, width())
+	const y = rand(0, height())
+	add([
+		sprite("ghosty"),
+		pos(x, y),
+	])
+}
+   ````
+
+It did not work and when I tried as the console said that `kaboom()` was not definded. I did not really know what to do so I just decided to look on the [kaboom tutorial](https://kaboomjs.com/doc/setup). After scrooling for abit I noticed that on the page it says that the most easy way 
+## EDP
+
+
+## SKills
 
 [Previous](entry01.md) | [Next](entry03.md)
 
