@@ -1,11 +1,23 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Kaboom
+## Product: A RPG video game
 
 ---
 
 ## Timeline
+
+* Put my tool into my IDE(2/6-2/12)
+     * Learn how to do it, if it is watching a video on slack or going on the offical website(2/6)
+     * Attempt to put in install it into my IDE by following the video or kaboom(2/7-10)
+     * See if there are any bugs and decode it if they are(2/11-12)
+       
+     
+
+  
+  
+
+
 
 #### MVP
 
