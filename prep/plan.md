@@ -5,24 +5,17 @@
 
 ---
 
+
 ## Timeline
-
-* Put my tool into my IDE(2/6-2/12)
-     * Learn how to do it, if it is watching a video on slack or going on the offical website(2/6)
-     * Attempt to put in install it into my IDE by following the video or kaboom(2/7-10)
-     * See if there are any bugs and decode it if they are(2/11-12)
-       
-     
-
-  
-  
-
-
-
+    
+   
 #### MVP
 
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ]  Put my tool into my IDE (Deadline: 2/13/25)
+  - [ ]  Learn How to put my tool into my IDE by watching the video on slack or going to kabooms offical website (2/6-2/8)
+  - [ ] Follow the instructions of the video and install kaboom into my IDE (deadline: 2/12)
+  - [ ] If that does not work, ask a friend work on kaboom to help or my teacher(Deadline: 2/13)
+         
 
 #### Beyond MVP
 
