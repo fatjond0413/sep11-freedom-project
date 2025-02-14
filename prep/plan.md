@@ -15,7 +15,12 @@
   - [ ]  Learn How to put my tool into my IDE by watching the video on slack or going to kabooms offical website (2/6-2/8)
   - [ ] Follow the instructions of the video and install kaboom into my IDE (deadline: 2/12)
   - [ ] If that does not work, ask a friend work on kaboom to help or my teacher(Deadline: 2/13)
-         
+- [ ] Make my first level the green skys level(Deadline:3/1)
+  - [ ] Make the playable sprite, I plan to go to kaboom.js or youtube to learn how to do this. (Deadline 2/16)
+  - [ ] Make the platform and make the sprites not go through it. I plan to do this by examining the code on the platformer section to find out how to install it.(Deadline 2/17)
+  - [ ] Add controls to the playable sprites.(Deadline 2/17)
+  - [ ] Edit the platform and and add obsticales and extra blocks on top of the platform
+  - [ ]       
 
 #### Beyond MVP
 
