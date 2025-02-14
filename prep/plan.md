@@ -19,13 +19,18 @@
   - [ ] Make the playable sprite, I plan to go to kaboom.js or youtube to learn how to do this. (Deadline 2/16)
   - [ ] Make the platform and make the sprites not go through it. I plan to do this by examining the code on the platformer section to find out how to install it.(Deadline 2/17)
   - [ ] Add controls to the playable sprites.(Deadline 2/17)
-  - [ ] Edit the platform and and add obsticales and extra blocks on top of the platform
-  - [ ]       
+  - [ ] Edit the platform and and add obsticales and extra blocks on top of the platform(2/20)
+  - [ ] Make an end point.(2/22)
+  - [ ] Make two enemy sprites (Deadline: 2/24)
+    - [ ] One jumps and shoots lasers (2/23)
+    - [ ] The other runs very fast. (2/23)     
 
 #### Beyond MVP
 
-- [ ] Task
-  - [ ] Subtask
+- [ ] Make another level(Deadline: 3/10)
+  - [ ] add a diffrent background
+  - [ ] 
+- [ ] 
 
 
 <!-- EXAMPLE
