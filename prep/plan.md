@@ -28,8 +28,8 @@
 #### Beyond MVP
 
 - [ ] Make more levels(Deadline: 4/15)
-  - [ ] add a diffrent background
-  - [ ] Make new sprites or mobs for some
+  - [ ] add a diffrent background for each level
+  - [ ] Make new sprites or mobs for some levels
 - [ ] Add music(Deadline: 4/20)
 
 
