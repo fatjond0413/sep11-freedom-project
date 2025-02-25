@@ -7,7 +7,7 @@
 
 ### Learning how to put my tool into my IDE
 
-  As I tried before, I tried going on the offical site to find out how, but as last time I had no luck in anything, so I just decided that enough was enough as I was done with this and decided to as some of my classmates for help because I had just given up on trying to find out how to o=out in in my IDE, so I just asked another friend on how to put it in and he guided me to slack. I never go to slack so this was a first. There was a video in the the kaboom section in slack. So then I watched it and thought I had an idea on what to do.
+ As I tried before, I tried going on the offical site to find out how, but as last time I had no luck in anything, so I just decided that enough was enough as I was done with this and decided to as some of my classmates for help because I had just given up on trying to find out how to o=out in in my IDE, so I just asked another friend on how to put it in and he guided me to slack. I never go to slack so this was a first. There was a video in the the kaboom section in slack. So then I watched it and thought I had an idea on what to do.
 
 ### Puting my kaboom into my IDE for real this time.
 
