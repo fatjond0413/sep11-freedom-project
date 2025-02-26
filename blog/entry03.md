@@ -3,7 +3,7 @@
 
 ### Takeing a break
 
-     After failing to install my tool into my IDE, I had given up and decided to do it later, I was doing other assignment while keeping my tool in the back of my mind while I pay more attention on other classes or assignment. I relaxed and did nothing special for a while. But after the new semester I got new classmates and one of them was my friend. I went to talk to him and he was working on his freedom project. After that I thought about working on my freedom project and decided that the clock was ticking and ticking fast, ever since 2020 pasted, and now was the time to start and learn on how to get my tool into my IDE.
+  After failing to install my tool into my IDE, I had given up and decided to do it later, I was doing other assignment while keeping my tool in the back of my mind while I pay more attention on other classes or assignment. I relaxed and did nothing special for a while. But after the new semester I got new classmates and one of them was my friend. I went to talk to him and he was working on his freedom project. After that I thought about working on my freedom project and decided that the clock was ticking and ticking fast, ever since 2020 pasted, and now was the time to start and learn on how to get my tool into my IDE.
 
 ### Learning how to put my tool into my IDE
 
