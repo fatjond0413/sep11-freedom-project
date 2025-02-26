@@ -3,11 +3,11 @@
 
 ### Takeing a break
 
-  After failing to put my tool into my Ide, I had given up and decided to procrastinate on the freedom project, doing other assignment and keeping my tool in the back of my mind while I pay more attention on other classes or assignment. I relaxed and did nothing special for a while. But after the new semester I got new classmates and one of them was my friend. I went to talk to him and he was working on his freedom project. After that I thought about working on my freedom project and decided that the clock was ticking and ticking fast, ever since 2020 pasted, and now was the time to start and learn on how to get my tool into my IDE.
+  After failing to install my tool into my IDE, I had given up and decided to do it later, I was doing other assignment while keeping my tool in the back of my mind while I pay more attention on other classes or assignment. I relaxed and did nothing special for a while. But after the new semester I got new classmates and one of them was my friend. I went to talk to him and he was working on his freedom project. After that I thought about working on my freedom project and decided that the clock was ticking and ticking fast, ever since 2020 pasted, and now was the time to start and learn on how to get my tool into my IDE.
 
 ### Learning how to put my tool into my IDE
 
- As I tried before, I tried going on the offical site to find out how, but as last time I had no luck in anything, so I just decided that enough was enough as I was done with this and decided to as some of my classmates for help because I had just given up on trying to find out how to o=out in in my IDE, so I just asked another friend on how to put it in and he guided me to slack. I never go to slack so this was a first. There was a video in the the kaboom section in slack. So then I watched it and thought I had an idea on what to do.
+ As I tried before, I tried going on the offical site to find out how, but as last time I had no luck in anything, so I just decided that enough was enough as I was done with this and decided to as some of my classmates for help because I had just given up on trying to find out how to out in in my IDE, so I just asked another friend on how to put it in and he guided me to slack. I never go to slack so this was a first. There was a video in the the kaboom section in slack. So then I watched it and thought I had an idea on what to do.
 
 ### Puting my kaboom into my IDE for real this time.
 
