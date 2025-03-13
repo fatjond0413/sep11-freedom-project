@@ -110,3 +110,19 @@ const NUM_PLATFORMS = 5
 
 
   # Learning log 5
+  # Learning log 6
+  # Learning log 7
+  # Learning log 8
+    * Decided it was time to put Kaboom into my IDE 3/0
+        * Ask my friend for help
+        * My friend sends me to the [Kaboom tutorial](https://kaboomjs.com/doc/setup)
+    * Go to my IDE
+       * put `npm init kaboom -- mygame` into my tool bar
+       * It doesen't work so I try it again
+       * It works some how
+       * put `cd mygame` into my tool bar
+       * put `npm run dev` and now kaboom runs
+         
+       * 
+      
+  # Learning log 9
