@@ -123,6 +123,13 @@ const NUM_PLATFORMS = 5
        * put `cd mygame` into my tool bar
        * put `npm run dev` and now kaboom runs
          
-       * 
       
   # Learning log 9
+  * Now add a platform into my IDE
+    * Go to [kaboom playground](https://kaboomjs.com/play?example=add)
+    * Go to the platform section and examine it's code
+    * Copy it code and put it into mh IDE
+  * Open my notes
+  * Write down that `loadSprite` loads all kinds of things like grass and beans
+  * Write doen the `setGravity` sees how far you can jump
+  * `Background` of coruses sets the background and it works like color.px. 
