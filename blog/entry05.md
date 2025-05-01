@@ -20,7 +20,7 @@ This really made me feel like I have strong understanding of [kaboom](https://ka
 
 ## My progress towards my MVP
 
-   Ah yes, my [MVP](https://github.com/fatjond0413/sep11-freedom-project/blob/main/index.html), I had completed it, however I decided to do something very stupid, this stupid thing had lead me to lossing my entire code, my entire MVP. THe mistake was that instead of puting my MVP code into
+   Ah yes, my [MVP](https://github.com/fatjond0413/sep11-freedom-project/blob/main/index.html), I had completed it, however I decided to do something very stupid, this stupid thing had lead me to lossing my entire code, my entire MVP. THe mistake was that instead of puting my MVP code into [Kaboom playground](https://kaboomjs.com/play?example=add), why I did this is because I thought it was easier to do it in the playground then [cs50 or my IDE](https://cs50.dev/). This mistake had lead me to loosing all my progress in my MVP, snd go all the way back to square one.
  
 ## En
  
