@@ -1,13 +1,13 @@
 # Presentation Plan
 
 ## Hook
-* 
+* For my hook I plan to start with question
 
 ## Product
-* 
+* I first plan to give a short and brief explanation of my product,that it is and 3 to 4 level RPG(IF you find the secret level).After that I will explain what the controls are, certian mobs.
 
 ## Process
-* 
+* I will first explain the 
 
 ## Conclusion
 * 
