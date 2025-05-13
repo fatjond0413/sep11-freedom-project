@@ -1,10 +1,10 @@
 # Presentation Plan
 
 ## Hook
-* For my hook I plan to start with question
+* For my hook I plan to start with question. The question I am thinking of is ¨I know all of you have played ¨
 
 ## Product
-* I first plan to give a short and brief explanation of my product,that it is and 3 to 4 level RPG(IF you find the secret level).After that I will explain what the controls are, certian mobs.
+* I first plan to give a short and brief explanation, with my max goal of sentences per slide would be 5 and I plan to give my product 4 slides,of my product,that it is and 3 to 4 level RPG(IF you find the secret level).After that I will explain what the controls are, certian mobs. I will also show 2  code snippits, the first being of the bosses to show how they opperate, while the second being how the map of the second level was made. AS for the formation of my slides, .The second will be me either puting a link to my freedom project so that I can play it while presenting, there will also be a link to my entire freedom project code. My third slide be some code snippets about
 
 ## Process
 * I will first explain the 
