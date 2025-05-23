@@ -21,12 +21,14 @@
 import kaboom from "https://unpkg.com/kaboom@3000.0.1/dist/kaboom.mjs";
 
 // initialize kaboom context
-kaboom();
+kaboom({
+    background: [141, 183, 255],
+})
 
 // add a piece of text at position (120, 80)
 add([
-    text("hello"),
-    pos(120, 80),
+    text("You are stealing from an evil organization, do not bumb into any ghost, the CEOs right hand man or him and get the gold coin"),
+    pos(120,380),
 ]);
 
 loadSprite("grass", "/sprites/grass.png")
@@ -38,18 +40,24 @@ loadSprite("door", "/sprites/door.png")
 loadSprite("goon", "/sprites/Screenshot 2025-05-21 5.59.32 PM.png")
 loadSprite("cowman", "/sprites/Screenshot 2025-05-22 10.16.02 AM.png")
 loadSprite("boss", "/sprites/Screenshot 2025-05-22 10.11.29 AM.png")
+loadSprite("coin", "/sprites/coin.png")
 
 setGravity(1500)
 
+  const time = 60
   const level = addLevel([
-	"-@                                                                                       -     b     -",
-    "-                                              -----   --                                ---------------",
-    "-                                           7-                              -                            -",
-    "-                                         -",
-    "-       ----       -  -                 -                          -     -               -    -               -",
-    "-        0   -     -^^-^^^^^     )    -                                                  d-",
-    "-------- --    -----------------------                    -----  -            -    --    -       -     -  ----",
-],
+    "                                                                                                     ",
+    " ",
+    "                                                                                                        -",
+	"-@                                               g                                               -   -     -",
+    "-                                              -----   --                                      - - -        - ",
+    "-                                           -                              -                  -  -        - ",
+    "-                                       $  -                             $                      - -         -",
+    "-       ----       -  -                 -                          -     -               -^   -  -           ",
+    "-   $ $  g   -  g  -^^-^^^^^  $  g    -                   - ggg                7     ^   -      -       b    d",
+    "-------- --    -----------------------                    ------  -            -    ---  -       -------------",
+    "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"],
+
    {
     tileWidth: 64,
     tileHeight: 64,
@@ -74,6 +82,42 @@ setGravity(1500)
 			anchor("bot"),
 			"danger",
 		],
+        "7": () => [
+			sprite("smile"),
+			area(),
+			anchor("bot"),
+            "enemy",
+		],
+        "g": () => [
+			sprite("ghost"),
+			area(),
+			anchor("bot"),
+			"danger",
+		],
+        ")": () => [
+			sprite("goon"),
+			area(),
+			anchor("bot"),
+            "enemy",
+		],
+		"b": () => [
+			sprite("boss"),
+			area(),
+			anchor("bot"),
+            "danger",
+		],
+		"$": () => [
+			sprite("coin"),
+			area(),
+			anchor("bot"),
+            "coin",
+		],
+        "d": () => [
+			sprite("door"),
+			area(),
+			anchor("bot"),
+            "danger",
+		],
       },
    })
 
@@ -82,10 +126,11 @@ setGravity(1500)
 let player = level.get("player")[0]
 
 player.onCollide("danger", () => {
-        background(255,255,255)
-        fill(0,0,0)
-		text("You died")
+     background[255,255,255]
 	})
+//player.onCollide("enemy", () => {
+  //     background(255,255,255)
+	//})
 
 player.onUpdate(() => {
 	camPos(player.worldPos())
@@ -98,10 +143,23 @@ player.onUpdate(() => {
 })
 
 let movement = 500
-let enemy_movement = 300
+
+
 onKeyDown("a", () => player.move(-movement, 0))
 onKeyDown("d", () => player.move(movement, 0))
 
+let points = 0
+
+
+    player.onCollide("coin", (coin) => {
+		destroy(coin)
+        points += 1
+	})
+
+ const pointDisplay = add([
+		text(points, 32),
+		pos(200, 200),
+	])
         </script>
     </body>
 </html>
