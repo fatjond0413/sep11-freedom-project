@@ -8,11 +8,17 @@
  ## My freedom project presentation
    Shortly after my SEP 11 expo I was up for presentation, on my presentation, I did alright, I just failed to present well and got a 7.5/10 my presentation. I thought I did well but I was wrong. I read the eamil and decided that I should start practicing more so that next time I get a 100 next time. How I plan to do this is by  doing the same thing for the explo and recorded my self and watch youtube videos.
    ## EDP stage
-   I have finished my product, presented my product and now I belive I on stage 8. Communicating the results of my freedom product as I have not only finished it, but am past explaning it to the judges and the classroom.Since I made the product and presented it, I am done with my product
+   I have finished my product, presented my product and now I belive I on stage 8. Communicating the results of my freedom product as I have not only finished it on may, but am past explaning it to the judges and the classroom as I did that 3 weeks ago .Since I made the product and presented it, I am done with my product and communicating the results to you reading, i am on stage 8.
    
-   ## Skills I am learning
+   ## Skills I am improving
+
+   1. I belive I am improving my growth mindset as I am praticing how to improve and how to improve my presentation skills
+   2. I am also improving my embracing faliure skills as I am imbracing my mistakes I did in the freedom project and am thinkng about how I can do better next time.
+
+      ## links
    
-     
+     [Plan]()
+     [presentation](https://docs.google.com/presentation/d/1Bj6a9JSETEUPc7FcyW1aLNtcyDn-1IxR39ZpcqrfrB4/edit?slide=id.g359fe7c0658_0_0#slide=id.g359fe7c0658_0_0)
    
 
 [Previous](entry05.md) | [Next](entry07.md)
