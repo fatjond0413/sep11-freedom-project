@@ -15,10 +15,10 @@
    1. I belive I am improving my growth mindset as I am praticing how to improve and how to improve my presentation skills
    2. I am also improving my embracing faliure skills as I am imbracing my mistakes I did in the freedom project and am thinkng about how I can do better next time.
 
-      ## links
+   ## links
    
-     [Plan]()
-     [presentation](https://docs.google.com/presentation/d/1Bj6a9JSETEUPc7FcyW1aLNtcyDn-1IxR39ZpcqrfrB4/edit?slide=id.g359fe7c0658_0_0#slide=id.g359fe7c0658_0_0)
+   [Plan](../README.md/prep/presentation.md)
+   [presentation](https://docs.google.com/presentation/d/1Bj6a9JSETEUPc7FcyW1aLNtcyDn-1IxR39ZpcqrfrB4/edit?slide=id.g359fe7c0658_0_0#slide=id.g359fe7c0658_0_0)
    
 
 [Previous](entry05.md) | [Next](entry07.md)
